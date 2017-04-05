@@ -127,9 +127,8 @@ hr {
 }
 
 .projects {
-  max-height: 300px;
   margin-bottom: 0;
-  min-height: 200px;
+  
 }
 
 .text-under-img {

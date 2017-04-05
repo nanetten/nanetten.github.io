@@ -17,16 +17,12 @@
     max-height: 88px;
     max-width:: 88px;
   }
-  .projects {
-    max-height: 400px;
- }
+
 }
 
 /*Ipad pro*/
 @media screen and (max-width: 1367px) and (min-width: 1366px) {
-  .projects {
-    max-height: 240px;
-  }
+
 }
 @media screen and (max-width: 767px) {
   body {
@@ -52,11 +48,7 @@
   }
 
 }
-@media screen and (min-width: 1024px) {
-  .projects {
-    max-height: 250px;
-  }
-}
+
 @media screen and (max-width: 768px) {
   body {
 
@@ -78,8 +70,9 @@
   }
   }
 
-@media screen and (min-width: 1680px) {
-  .projects {
-    max-height: 300px;
+@media screen and (min-width: 768px) and (max-width: 1679px) {
+  body {
+    margin-left: 25px;
+    margin-right: 25px;
   }
 }
