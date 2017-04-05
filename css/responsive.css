@@ -52,7 +52,11 @@
   }
 
 }
-
+@media screen and (min-width: 1024px) {
+  .projects {
+    max-height: 250px;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
 
