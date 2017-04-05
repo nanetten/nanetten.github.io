@@ -1,0 +1,75 @@
+@media screen and (min-width: 1680px) {
+  html  {
+    width: 1680px;
+    margin: 0 auto;
+  }
+}
+/*Ipad*/
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  body {
+    font-size: 17px;
+    height: 100%;
+  }
+  .name {
+    font-size: 52.5px;
+  }
+  svg#logo {
+    max-height: 88px;
+    max-width:: 88px;
+  }
+  .projects {
+    max-height: 400px;
+ }
+}
+
+/*Ipad pro*/
+@media screen and (max-width: 1367px) and (min-width: 1366px) {
+  .projects {
+    max-height: 240px;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 10px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  svg#logo {
+    max-height: 115px;
+    max-width: 115px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  body {
+
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .col-4 {
+    width: 100%;
+    margin: 0;
+  }
+  .text-under-img {
+    margin-top: 0;
+  }
+  p {
+    margin-bottom: 50px;
+  }
+  .fix-text {
+    margin-bottom: 0;
+  }
+  }
