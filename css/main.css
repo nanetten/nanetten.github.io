@@ -99,7 +99,7 @@ section .row {
   text-align: right;
 }
 
-svg#logo {
+.logo {
   height: 12vw;
   width: 12vw;
   min-width: 45px;
@@ -112,9 +112,7 @@ svg#logo {
 
 hr {
   width: 100%;
-  border-color: #7d97ad;
-  border-style: solid;
-  border-width: 1px;
+  border: 1px solid #7d97ad;
 }
 
 .col-4 {
@@ -128,7 +126,7 @@ hr {
 
 .projects {
   margin-bottom: 0;
-  
+
 }
 
 .text-under-img {
